@@ -90,6 +90,7 @@
 	<string name="menu.search">Search</string>
 	<string name="menu.shuffle">Shuffle</string>
 	<string name="menu.refresh">Refresh</string>
+	<string name="menu.reverse_sort">Newest first</string>
 	<string name="menu.play">Play</string>
 	<string name="menu.play_last">Play Last</string>
     <string name="menu.exit">Exit</string>
@@ -236,6 +237,7 @@
 	<string name="sync.new_playlists">New songs in playlists</string>
 	<string name="sync.new_albums">New albums available</string>
 	<string name="sync.new_starred">New starred songs available</string>
+	<string name="sync.new_library">New library tracks cached</string>
     
 	<string name="starring_content_starred">Starred \"%s\"</string>
 	<string name="starring_content_unstarred">Unstarred \"%s\"</string>
@@ -388,7 +390,8 @@
 	<string name="settings.sleep_timer_off">Off</string>
 	<string name="settings.sleep_timer_on">On</string>
 	<string name="settings.sleep_timer_always_on">Always On</string>
-	<string name="settings.temp_loss_title">Temporary Loss of Focus</string>
+	<string name="settings.temp_loss_title">When another app plays audio</string>
+	<string name="settings.temp_loss_summary">Behavior when navigation TTS, voice assistants, or other apps request audio focus</string>
 	<string name="settings.temp_loss_pause">Always Pause</string>
 	<string name="settings.temp_loss_pause_lower">Pause, lower volume when requested</string>
 	<string name="settings.temp_loss_lower">Always lower volume</string>
@@ -405,6 +408,8 @@
 	<string name="settings.persistent_summary">Show the notification even after pausing.  Press the stop button to clear it away.</string>
 	<string name="settings.gapless_playback">Gapless Playback</string>
 	<string name="settings.gapless_playback_summary">If you are seeing strange bugs during playback, turning this off may help.</string>
+	<string name="settings.usb_dac_exclusive_title">Route to USB DAC</string>
+	<string name="settings.usb_dac_exclusive_summary">Send playback to a connected USB DAC when present. Applies on the next track. Android 9+.</string>
 	<string name="settings.chat_refresh">Chat Refresh Rate (Secs)</string>
 	<string name="settings.chat_enabled">Chat Enabled</string>
 	<string name="settings.chat_enabled_summary">Whether or not to display the chat listing in the pull out drawer</string>
@@ -444,6 +449,8 @@
 	<string name="settings.sync_most_recent_summary">Automatically cache newly added albums</string>
 	<string name="settings.sync_starred">Sync Starred</string>
 	<string name="settings.sync_starred_summary">Automatically cache songs, albums, and artists which are starred</string>
+	<string name="settings.sync_library">Cache Entire Library</string>
+	<string name="settings.sync_library_summary">Automatically cache every song in the library and keep the cache in sync with the server. Uses significant storage and bandwidth.</string>
 	<string name="settings.sync_notification">Show Sync Notification</string>
 	<string name="settings.sync_notification_summary">Show a notification after new media has been synced</string>
 	<string name="settings.menu_options.title">Optional Menu Options</string>

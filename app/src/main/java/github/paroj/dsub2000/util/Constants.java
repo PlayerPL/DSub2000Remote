@@ -124,6 +124,7 @@ public final class Constants {
 	public static final String PREFERENCES_KEY_PERSISTENT_NOTIFICATION = "persistentNotification";
 	public static final String PREFERENCES_KEY_MEDIA_STYLE_NOTIFICATION = "mediaStyleNotification";
 	public static final String PREFERENCES_KEY_GAPLESS_PLAYBACK = "gaplessPlayback";
+	public static final String PREFERENCES_KEY_USB_DAC_EXCLUSIVE_MODE = "usbDacExclusiveMode";
 	public static final String PREFERENCES_KEY_REMOVE_PLAYED = "removePlayed";
 	public static final String PREFERENCES_KEY_KEEP_PLAYED_CNT = "keepPlayedCount";
 	public static final String PREFERENCES_KEY_SHUFFLE_MODE = "shuffleMode2";
@@ -142,12 +143,14 @@ public final class Constants {
 	public static final String PREFERENCES_KEY_SYNC_NOTIFICATION = "syncNotification";
 	public static final String PREFERENCES_KEY_SYNC_STARRED = "syncStarred";
 	public static final String PREFERENCES_KEY_SYNC_MOST_RECENT = "syncMostRecent";
+	public static final String PREFERENCES_KEY_SYNC_LIBRARY = "syncLibrary";
 	public static final String PREFERENCES_KEY_PAUSE_DISCONNECT = "pauseOnDisconnect";
 	public static final String PREFERENCES_KEY_HIDE_WIDGET = "hideWidget";
 	public static final String PREFERENCES_KEY_PODCASTS_ENABLED = "podcastsEnabled";
 	public static final String PREFERENCES_KEY_BOOKMARKS_ENABLED = "bookmarksEnabled";
 	public static final String PREFERENCES_KEY_INTERNET_RADIO_ENABLED = "internetRadioEnabled";
 	public static final String PREFERENCES_KEY_CUSTOM_SORT_ENABLED = "customSortEnabled";
+	public static final String PREFERENCES_KEY_REVERSE_PODCAST_SORT = "reversePodcastSort";
 	public static final String PREFERENCES_KEY_MENU_PLAY_NOW = "showPlayNow";
 	public static final String PREFERENCES_KEY_MENU_PLAY_SHUFFLED = "showPlayShuffled";
 	public static final String PREFERENCES_KEY_MENU_PLAY_NEXT = "showPlayNext";
@@ -236,6 +239,7 @@ public final class Constants {
 	public static final String SYNC_ACCOUNT_PODCAST_AUTHORITY = BuildConfig.APPLICATION_ID + ".podcasts.provider";
 	public static final String SYNC_ACCOUNT_STARRED_AUTHORITY = BuildConfig.APPLICATION_ID + ".starred.provider";
 	public static final String SYNC_ACCOUNT_MOST_RECENT_AUTHORITY = BuildConfig.APPLICATION_ID + ".mostrecent.provider";
+	public static final String SYNC_ACCOUNT_LIBRARY_AUTHORITY = BuildConfig.APPLICATION_ID + ".library.provider";
 
 	public static final String TASKER_EXTRA_BUNDLE = "com.twofortyfouram.locale.intent.extra.BUNDLE";
 
