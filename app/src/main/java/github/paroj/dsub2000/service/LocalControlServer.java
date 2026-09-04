@@ -230,9 +230,8 @@ public class LocalControlServer extends ServerProxy {
 			int positionMs = downloadService.getPlayerPosition();
 			status.setPositionSeconds(positionMs / 1000);
 			
-			// Set gain/volume (DownloadService doesn't expose getVolume(), using default)
-			// TODO: Add getVolume() method to DownloadService or track volume in this class
-			status.setGain(0.5f);
+			// Set gain/volume (0.0 - 1.0, matching the range setGain accepts)
+			status.setGain(downloadService.getVolume());
 			
 			return status;
 		}
