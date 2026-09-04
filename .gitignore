@@ -15,6 +15,5 @@ proguard_logs/
 local.properties
 *Thumbs.db
 app/google/release
-CLAUDE.md
 *.keystore
 nul
